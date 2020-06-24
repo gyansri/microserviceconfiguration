@@ -10,13 +10,3 @@ spring:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 
-spring:
- jpa:
- show-sql: true
-
-spring:
-  jpa:
-  hibernate:
-  ddl:
-  auto: update
-

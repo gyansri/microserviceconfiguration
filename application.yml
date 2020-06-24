@@ -3,7 +3,8 @@ spring:
     url: jdbc:postgresql://localhost:5432/test
     username: admin
     password: admin
-    driver-class-name: org.hibernate.dialect.PostgreSQLDialect
+    driver-class-name: org.postgresql.Driver
+    
     
   jpa:
     hibernate:

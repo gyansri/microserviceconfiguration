@@ -3,10 +3,11 @@ spring:
     url: jdbc:postgresql://localhost:5432/test
     username: admin
     password: admin
-    driver-class-name: org.hibernate.dialect.PostgreSQLDialect
+   
     
   jpa:
+    properties:
     hibernate:
-      naming:
-        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    dialect : org.hibernate.dialect.PostgreSQLDialect
+     
 

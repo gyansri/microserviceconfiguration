@@ -1,3 +1,2 @@
-server:
-  port: 9191
-
+spring:
+  message: config-prop

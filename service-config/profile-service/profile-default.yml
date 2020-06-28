@@ -1,2 +1,2 @@
-spring:
-  message: config-prop
+messsage:
+  show: config-prop-profile
